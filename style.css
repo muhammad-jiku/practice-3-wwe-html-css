@@ -1,0 +1,2324 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 57.9%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"]{
+
+    float: left;
+    
+}
+
+/*header starts*/
+.nav-bar{
+
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.nav-bar a{
+
+    background-color: #000000;
+}
+
+/* header ends*/
+
+
+/*main starts*/
+
+.card1{
+
+    float: left;
+    position: relative;
+    left: 20px;
+  
+}
+
+.card2{
+
+    float: left;
+    position: relative;
+    left: 35px;
+}
+
+.card3{
+
+    float: left;
+    position: relative;
+    left: 53px;
+}
+
+.card4{
+
+    float: right;
+    position: relative;
+    right: 20px;
+}
+
+/*main ends*/
+
+/* hr starts */
+.dotted{
+    width: 15%;
+}
+/* hr ends*/
+
+/*history starts*/
+
+.history h2{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.history p{
+
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+/*history ends*/
+
+/*gallery starts*/
+
+.gallery h2{
+
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 40px;
+
+}
+
+/* raw brand starts*/
+
+.brands1{
+
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+span{
+
+    top: -70px;
+    font-size: 42px;
+}
+
+.spaan{
+
+    top: -50px;
+}
+
+span:hover{
+
+    transition: 0.2s;
+}
+
+
+.brand1{
+
+    height: 150px;
+    width: 200px;
+    border-radius: 0%;
+    transform: skew(-1deg,-2deg);
+}
+
+.brand1:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes raw{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 20px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:20px;
+     }
+     75%{
+         top: -20px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -20px;
+     }
+
+}
+
+
+
+.champ1{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 25px;
+    transform: translate(10%);
+}
+
+.champ1 p{
+    margin-top: 20px;
+    margin-left: 35px;
+    color: darkkhaki;
+}
+
+.wwe_champ{
+
+    height: 200px;
+    width: 200px;
+}
+
+.wwe_champ:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes drew{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+
+
+.champ2{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 35px;
+    transform: translate(10%);
+}
+
+.champ2 p{
+    margin-top: 20px;
+    margin-left: 35px;
+    color: darkkhaki;
+}
+
+.us_champ{
+
+    height: 200px;
+    width: 200px;
+}
+
+.us_champ:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes bobby{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+.champ3{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 35px;
+    transform: translate(10%);
+}
+
+.champ3 p{
+    margin-top: 20px;
+    margin-left: 85px;
+    color: darkkhaki;
+}
+
+.raw_wo{
+
+    height: 200px;
+    width: 200px;
+}
+
+.raw_wo:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes asuka{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+.champ4{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 20px;
+    transform: translate(-10%);
+}
+
+.champ4 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.raw_tag1{
+
+    height: 200px;
+    width: 200px;
+}
+
+.raw_tag1:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes cedric{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+.champ5{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 35px;
+    transform: translate(-10%);
+}
+
+.champ5 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.raw_tag2{
+
+    height: 200px;
+    width: 200px;
+}
+
+.raw_tag2:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes shelton{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+/*raw brand ends*/
+
+/* sd  brand starts*/
+
+.brands2{
+
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+
+.brand2{
+
+    height: 150px;
+    width: 200px;
+    border-radius: 0%;
+    transform: skew(-1deg,-2deg);
+    margin-top: 25px;
+}
+
+.brand2:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes sd{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 20px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:20px;
+     }
+     75%{
+         top: -20px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -20px;
+     }
+
+}
+
+
+
+
+
+
+.chaamp1{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 25px;
+    transform: translate(10%);
+}
+
+.chaamp1 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.universal_champ{
+
+    height: 200px;
+    width: 200px;
+}
+
+.universal_champ:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes roman{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+.chaamp2{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 25px;
+    transform: translate(10%);
+}
+
+.chaamp2 p{
+    margin-top: 20px;
+    margin-left: 75px;
+    color: darkkhaki;
+}
+
+.ic_champ{
+
+    height: 200px;
+    width: 200px;
+}
+
+.ic_champ:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes big_e{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+.chaamp3{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 25px;
+    transform: translate(10%);
+}
+
+.chaamp3 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.sd_wo{
+
+    height: 200px;
+    width: 200px;
+}
+
+.sd_wo:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes sasha{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+.chaamp4{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: -30px;
+    transform: translate(10%);
+}
+
+.chaamp4 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.sd_tag1{
+
+    height: 200px;
+    width: 200px;
+}
+
+.sd_tag1:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes dolph{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+.chaamp5{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 10px;
+    transform: translate(-10%);
+}
+
+.chaamp5 p{
+    margin-top: 20px;
+    margin-left: 55px;
+    color: darkkhaki;
+}
+
+.sd_tag2{
+
+    height: 200px;
+    width: 200px;
+}
+
+.sd_tag2:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes roode{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+/* sd brand ends*/
+
+/*nxt brand starts*/
+
+
+.brands3{
+
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+
+.brand3{
+
+    height: 150px;
+    width: 200px;
+    border-radius: 0%;
+    transform: skew(-1deg,-2deg);
+    margin-top: 25px;
+}
+
+.brand3:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes nxt{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 20px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:20px;
+     }
+     75%{
+         top: -20px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -20px;
+     }
+
+}
+
+
+
+
+.chhamp1{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: -5px;
+    transform: translate(-5%);
+}
+
+.chhamp1 p{
+    margin-top: 20px;
+    margin-left: 65px;
+    color: darkkhaki;
+}
+
+.nxt_champ{
+
+    height: 200px;
+    width: 200px;
+}
+
+.nxt_champ:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes finn{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+.chhamp2{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: -5px;
+    transform: translate(-20%);
+}
+
+.chhamp2 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.northamerica_champ{
+
+    height: 200px;
+    width: 200px;
+}
+
+.northamerica_champ:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes johnny{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+.chhamp3{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: -5px;
+    transform: translate(-25%);
+}
+
+.chhamp3 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.nxt_wo{
+
+    height: 200px;
+    width: 200px;
+}
+
+.nxt_wo:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes shirai{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+.chhamp4{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: -5px;
+    transform: translate(-35%);
+}
+
+.chhamp4 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.cruiser_champ1{
+
+    height: 200px;
+    width: 200px;
+}
+
+.cruiser_champ1:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes santos{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+.chhamp5{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: -5px;
+    transform: translate(-40%);
+    
+}
+
+.chhamp5 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.nxt_tag1{
+
+    height: 200px;
+    width: 200px;
+}
+
+.nxt_tag1:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes danny{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+.chhamp6{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 5px;
+    transform: translate(-10%,-117%);
+    float: right;
+}
+
+.chhamp6 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.nxt_tag2{
+
+    height: 200px;
+    width: 200px;
+}
+
+.nxt_tag2:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes lorcan{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+/*nxt brand ends*/
+
+/*nxt uk starts*/
+
+
+.brands4{
+
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+
+.brand4{
+
+    height: 150px;
+    width: 200px;
+    border-radius: 0%;
+    transform: skew(-1deg,-2deg);
+    margin-top: 25px;
+}
+
+.brand4:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes nxt_uk{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 20px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:20px;
+     }
+     75%{
+         top: -20px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -20px;
+     }
+
+}
+
+
+
+
+.chammp1{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: -5px;
+    transform: translate(-5%);
+}
+
+.chammp1 p{
+    margin-top: 20px;
+    margin-left: 75px;
+    color: darkkhaki;
+}
+
+.nxtuk_champ{
+
+    height: 200px;
+    width: 200px;
+}
+
+.nxtuk_champ:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes walter{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+.chammp2{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 2px;
+    transform: translate(-20%);
+}
+
+.chammp2 p{
+    margin-top: 20px;
+    margin-left: 53px;
+    color: darkkhaki;
+}
+
+.nxtuk_heritage{
+
+    height: 200px;
+    width: 200px;
+}
+
+.nxtuk_heritage:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes a-kid{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+
+.chammp3{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: -20px;
+    transform: translate(-20%);
+}
+
+.chammp3 p{
+    margin-top: 20px;
+    margin-left: 53px;
+    color: darkkhaki;
+}
+
+.nxtuk_wo{
+
+    height: 200px;
+    width: 200px;
+}
+
+.nxtuk_wo:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes kay{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+.chammp4{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: -10px;
+    transform: translate(-35%);
+}
+
+.chammp4 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.cruiser_champ2{
+
+    height: 200px;
+    width: 200px;
+}
+
+.cruiser_champ2:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes jordan{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+
+
+.chammp5{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: -30px;
+    top: -80px;
+    transform: translate(-40%,-20%);
+    
+}
+
+.chammp5 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.nxtuk_tag1{
+
+    height: 200px;
+    width: 200px;
+}
+
+.nxtuk_tag1:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes mark{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+
+
+
+
+.chammp6{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 5px;
+    top: -50px;
+    transform: translate(-10%,-150%);
+    float: right;
+}
+
+.chammp6 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.nxtuk_tag2{
+
+    height: 200px;
+    width: 200px;
+}
+
+.nxtuk_tag2:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes wolfgang{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+/*nxt uk brand ends*/
+
+/*all brands start*/
+
+
+.brands{
+
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+
+.brand{
+
+    height: 150px;
+    width: 200px;
+    border-radius: 0%;
+    transform: skew(-1deg,-2deg);
+    margin-top: 25px;
+}
+
+.brand:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes all{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 20px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:20px;
+     }
+     75%{
+         top: -20px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -20px;
+     }
+
+}
+
+
+
+
+.champp1{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 25px;
+    transform: translate(25%);
+}
+
+.champp1 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.wo_tag1{
+
+    height: 200px;
+    width: 200px;
+}
+
+.wo_tag1:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes baszler{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+
+
+.champp2{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 170px;
+    transform: translate(50%);
+}
+
+.champp2 p{
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkkhaki;
+}
+
+.wo_tag2{
+
+    height: 200px;
+    width: 200px;
+}
+
+.wo_tag2:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes nia{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+
+
+.champp3{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 280px;
+    transform: translate(100%);
+}
+
+.champp3 p{
+    margin-top: 20px;
+    margin-left: 75px;
+    color: darkkhaki;
+}
+
+.champ_247{
+
+    height: 200px;
+    width: 200px;
+}
+
+.champ_247:hover{
+
+    transition: 0.2s;
+}
+
+@keyframes r-truth{
+
+   0%{
+       top: 0;
+       bottom: 0;
+    }
+    25%{
+        
+        top: 10px;
+        bottom: 0;
+     }
+     50%{
+         
+         top:0;
+         bottom:10px;
+     }
+     75%{
+         top: -10px;
+         bottom:0;
+     }
+     100%{
+         top: 0;
+         bottom: -10px;
+     }
+
+}
+
+
+
+/*all brands end*/
+
+
+/*gallery ends*/
+
+/*titantron starts*/
+
+.titantron{
+
+}
+
+.titantron h2{
+
+    text-align: left;
+    position: relative;
+    top: 45px;
+    left: 45px;
+}
+
+.video1{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.drew_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+
+.video2{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.roman_video{
+
+    height: 200px;
+    width: 280px;
+}
+
+
+
+
+
+
+.video3{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.finn_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+
+
+.video4{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.walter_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+.video5{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.bobby_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+.video6{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.e_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+.video7{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.johnny_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+.video8{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.a-kid_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+
+.video9{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.asuka_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+
+.video10{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.sasha_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+.video11{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.shirai_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+.video12{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.kay_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+.video13{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.thb_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+.video14{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.dd_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+.video15{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.od_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+.video16{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.gallus_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+.video17{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.santos_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+.video18{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.jordan_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+.video19{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.il_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
+.video20{
+
+    margin-left: 45px;
+    margin-top: 85px;
+    
+}
+
+.truth_video{
+
+    height: 200px;
+    width: 280px;
+
+}
+
+
+/*titantron ends*/
+
+
+/* about me section starts*/
+
+.about_me{
+
+    width: 95%;
+
+}
+
+.about_me:hover{
+
+    box-shadow: none;
+}
+
+.about_me h2{
+
+    text-align: center;
+    position: relative;
+    left: -20px;
+    top: 30px;
+    transform: translate(-5%);
+}
+
+.dotted1{
+
+    position: relative;
+    top: 30px;
+    left: -30px;
+    transform: translate(-20%);
+    width: 20%;
+    
+}
+
+
+.profile{
+
+    text-align: center;
+    position: relative;
+    transform: translate(5%,30%);
+
+}
+
+.pic{
+
+    height: 250px;
+    width: 250px;
+}
+
+.description{
+
+    margin-top: 50px;
+    
+}
+
+.description p{
+    text-align: justify;
+}
+
+
+/* about me section ends*/
+
+/* professional section starts */
+
+
+/* professional section ends*/
+
+/* contact row starts*/
+
+.contact_row{
+
+    width: 94%;
+    
+}
+
+/* contact me starts*/
+
+.contact_me h2{
+
+    text-align: center;
+    position: relative;
+    left: 30px;
+
+}
+
+.contact_me hr{
+
+    position: relative;
+    top: 10px;
+    left: 70px;
+    width: 35%;
+}
+
+input{
+
+    position: relative;
+    left: 20px;
+}
+
+textarea{
+    position: relative;
+    left: 20px;
+}
+
+
+.submit{
+
+    position: relative;
+    left: 80px;
+    transform: translate(100%);
+
+}
+
+.reset{
+    position: relative;
+    left: 80px;
+    transform: translate(100%);
+}
+
+/*contact me ends*/
+
+/*contact button starts*/
+
+.contact_button h2{
+
+    position: relative;
+    top: 38px;
+}
+
+.contact_button hr{
+
+    position: relative;
+    top: 50px;
+    left: 5px;
+    width: 35%;
+    
+}
+
+.button_div{
+
+   position: relative;
+   top: 100px;
+}
+
+
+/* contact button ends*/
+
+/* contact row ends*/
+
+/* footer starts*/
+
+.footer{
+
+    height: 150px;
+    margin-top: 5px;
+}
+
+.nav-footer{
+    flex-direction: row;
+}
+
+.nav-footer a:hover{
+    background-color: black;
+}
+
+.pp{
+
+    left: -55px;
+    transform: translateX(-15%);
+}
+
+.developer{
+    left:-85px;
+    transform: translateX(-21%);
+}
+
+.copyright{
+    left: -75px;
+}
+
+.right{
+  
+    top: -20px;
+  left: 70px;
+  transform: translateX(10%);
+}
+/* footer ends*/

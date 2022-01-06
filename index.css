@@ -1,0 +1,4079 @@
+*{
+  
+   
+}
+
+
+.body{
+
+     box-sizing: border-box;
+     background-color:black;
+}
+
+[class*="col-"]{
+    width: 100%;
+}
+
+/* header section starts*/
+
+.header{
+
+    padding: 20px;
+    background-color: #000000;
+    box-sizing: border-box;
+}
+
+.logo{  
+
+    text-align: center;
+    
+}
+
+.wwe{
+    margin-top: 20px;
+    height: 100px; 
+    border:2px solid gray; 
+    
+}   
+
+
+h1{
+
+    color: lightgray;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+.nav-bar{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar a{
+    color: wheat;
+    text-decoration: none;
+    font-family: fantasy;
+    text-transform:uppercase ;
+    margin: 10px 2px;
+    background-color: gray;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.nav-bar a:hover{
+
+    background-color: honeydew;
+    color: orangered;
+}
+
+.header::after{
+
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* header section ends*/
+
+/* main starts*/
+.main{
+    
+}
+
+.card1{
+
+    background-color: rgb(37, 29, 29);
+    height: 580px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border:5px solid black;
+    border-radius: 10px;
+    
+}
+
+.card1:hover{
+
+    cursor: pointer;
+    box-shadow: 20px 30px 5px dimgrey;
+    width: 302px;
+    transition: 0.5s;
+}
+
+
+.card1 img{
+    width: 100%;
+}
+
+.card-heading{
+
+    color: burlywood;
+    font-family: 'Potta One', cursive;
+    text-align: center;
+
+}
+
+.card-para{
+
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+
+.card2{
+
+    background-color:rgb(37, 29, 29);
+    height: 580px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border:5px solid black;
+    border-radius: 10px;
+}
+
+.card2:hover{
+
+    cursor: pointer;
+    box-shadow: 20px 30px 5px dimgrey;
+    width: 302px;
+    transition: 0.5s;
+}
+
+.card2 img{
+    width: 100%;
+}
+
+
+.card3{
+
+    background-color: rgb(37, 29, 29);
+    height: 580px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border:5px solid black;
+    border-radius: 10px;
+
+}
+
+.card3:hover{
+
+    cursor: pointer;
+    box-shadow: 20px 30px 5px dimgrey;
+    width: 302px;
+    transition: 0.5s;
+}
+
+.card3 img{
+    height: 170px;
+    width: 100%;
+}
+
+.card4{
+
+    background-color: rgb(37, 29, 29);
+    height: 580px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border:5px solid black;
+    border-radius: 10px;
+   
+}
+
+
+.card4:hover{
+
+    cursor: pointer;
+    box-shadow: 20px 30px 5px dimgrey;
+    width: 302px;
+    transition: 0.5s;
+}
+
+.card4 img{
+    height: 170px;
+    width: 100%;
+}
+
+.main::after{
+
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+/*main ends*/
+
+/* hr starts*/
+
+.dotted{
+
+    border-bottom:8px dotted;
+    width: 20%;
+    margin-top: 40px;
+    border-block-start-style:none ;
+    border-bottom-color: linen;
+}
+
+.dotted:hover{
+    border-color: lightslategray ;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/*hr ends*/
+
+/* history starts*/
+
+
+
+.history h2{
+
+    margin-top: 40px;
+    font-family: fantasy;
+    font-size: 32px;
+    color: thistle;
+    text-align: center;
+    text-decoration: overline underline lemonchiffon;
+    
+    
+}
+
+.first{
+
+    text-indent: 25px;
+}
+
+.first::first-letter{
+    font-size: 32px;
+    color: bisque;
+}
+
+.history p{
+
+    color: whitesmoke;
+    text-align: justify;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Sriracha', cursive;
+}
+
+.history::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+/* history ends*/
+
+/*gallery starts*/
+
+.gallery{
+
+    background-color: black;
+}
+
+.gallery h2{
+
+    color: cornsilk;
+    font-family: cursive;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: overline underline lemonchiffon;
+    margin-top: 40px;
+
+}
+
+/*raw brand starts*/
+
+.brands1{
+
+    text-align: center;
+
+}
+
+span{
+
+    color: dimgrey;
+    position: relative;
+    top: -40px;
+    font-size: 32px;
+    font-family: fantasy;
+    text-transform: lowercase;
+    opacity: 0.5;
+}
+
+.spaan{
+
+    position: relative;
+    top: -30px;
+}
+
+span:hover{
+    opacity: 1;
+    cursor: pointer;
+    color: lightgrey;
+    position: relative;
+    animation-name: span;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+}
+
+@keyframes span{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 20px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:20px;
+      }
+      75%{
+          left: 0;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: 0;
+      }
+
+
+}
+
+.brand1{
+
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+ }
+
+
+.brand1:hover{
+
+    position: relative;;
+    animation-name: raw;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+@keyframes raw{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 0;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:20px;
+      }
+      75%{
+          left: -20px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -20px;
+      }
+
+
+}
+
+
+.champ1{
+
+    text-align: left;
+    margin-left: 30px;
+    float: left;
+}
+
+.champ1 p{
+    margin-top: 1px;
+    color: darkkhaki;
+}
+
+.wwe_champ{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.wwe_champ:hover{
+
+    position: relative;
+    animation-name: drew;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes drew{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+.champ2{
+
+    text-align: left;
+    margin-left: 40px;
+    float: left;
+}
+
+.champ2 p{
+    margin-top: 1px;
+    color: darkkhaki;
+}
+
+.us_champ{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+
+
+.us_champ:hover{
+
+    position: relative;
+    animation-name: bobby;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes bobby{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+}
+
+
+
+
+.champ3{
+
+    text-align: left;
+    margin-left: 40px;
+    float: left;
+}
+
+.champ3 p{
+    margin-top: 1px;
+    margin-left: 30px;
+    color: darkkhaki;
+}
+
+.raw_wo{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+
+
+.raw_wo:hover{
+
+    position: relative;
+    animation-name: asuka;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes asuka{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+}
+
+
+
+.champ4{
+
+    text-align: left;
+    margin-left: 105px;
+    float: left;
+}
+
+.champ4 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    position: relative;
+    left: -14px;
+}
+
+.raw_tag1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.raw_tag1:hover{
+
+    position: relative;
+    animation-name: cedric;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes cedric{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+
+.champ5{
+
+    text-align: left;
+    margin-left: 40px;
+    float: left;
+}
+
+.champ5 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    position: relative;
+    left: -8px;
+}
+
+.raw_tag2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.raw_tag2:hover{
+
+    position: relative;
+    animation-name: shelton;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes shelton{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+/* raw brand ends*/
+
+/* sd brand starts */
+
+.brands2{
+
+    text-align: center;
+
+}
+
+.brand2{
+
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+ }
+
+
+.brand2:hover{
+
+    position: relative;;
+    animation-name: sd;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+@keyframes sd{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 0;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:20px;
+      }
+      75%{
+          left: -20px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -20px;
+      }
+
+
+}
+
+
+
+.chaamp1{
+
+    text-align: left;
+    margin-left: 35px;
+    float: left;
+}
+
+.chaamp1 p{
+    margin-top: 1px;
+    color: darkkhaki;
+}
+
+.universal_champ{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.universal_champ:hover{
+
+    position: relative;
+    animation-name: roman;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes roman{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+
+.chaamp2{
+
+    text-align: left;
+    margin-left: 45px;
+    float: left;
+}
+
+.chaamp2 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    margin-left: 30px;
+}
+
+.ic_champ{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.ic_champ:hover{
+
+    position: relative;
+    animation-name: big_e;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes big_e{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+.chaamp3{
+
+    text-align: left;
+    margin-left: 45px;
+    float: left;
+}
+
+.chaamp3 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    margin-left: 5px;
+}
+
+.sd_wo{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.sd_wo:hover{
+
+    position: relative;
+    animation-name: sasha;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes sasha{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+
+
+.chaamp4{
+
+    text-align: left;
+    margin-left: 105px;
+    float: left;
+}
+
+.chaamp4 p{
+    margin-top: 1px;
+    color: darkkhaki;
+}
+
+.sd_tag1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.sd_tag1:hover{
+
+    position: relative;
+    animation-name: dolph;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes dolph{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+
+.chaamp5{
+
+    text-align: left;
+    margin-left: 50px;
+    float: left;
+}
+
+.chaamp5 p{
+    margin-top: 1px;
+    color: darkkhaki;
+}
+
+.sd_tag2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.sd_tag2:hover{
+
+    position: relative;
+    animation-name: roode;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes roode{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+/*sd brand ends*/
+
+/*nxt brand starts*/
+
+
+.brands3{
+
+    text-align: center;
+
+}
+
+.brand3{
+
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+ }
+
+
+.brand3:hover{
+
+    position: relative;;
+    animation-name: nxt;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+@keyframes nxt{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 0;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:20px;
+      }
+      75%{
+          left: -20px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -20px;
+      }
+
+
+}
+
+
+
+
+.chhamp1{
+
+    text-align: left;
+    margin-left: 35px;
+    float: left;
+}
+
+.chhamp1 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    margin-left: 15px;
+}
+
+.nxt_champ{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.nxt_champ:hover{
+
+    position: relative;
+    animation-name: finn;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes finn{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+
+.chhamp2{
+
+    text-align: left;
+    margin-left: 45px;
+    float: left;
+}
+
+.chhamp2 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    position: relative;
+    left: -5px;
+}
+
+.northamerica_champ{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.northamerica_champ:hover{
+
+    position: relative;
+    animation-name: johnny;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes johnny{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+
+
+.chhamp3{
+
+    text-align: left;
+    margin-left: 25px;
+    float: left;
+}
+
+.chhamp3 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    position: relative;
+    left: 15px;
+}
+
+.nxt_wo{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.nxt_wo:hover{
+
+    position: relative;
+    animation-name: shirai;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes shirai{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+.chhamp4{
+
+    text-align: left;
+    margin-left: 35px;
+    float: left;
+}
+
+.chhamp4 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    margin-left: 0px;
+}
+
+.cruiser_champ1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.cruiser_champ1:hover{
+
+    position: relative;
+    animation-name: santos;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes santos{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+
+.chhamp5{
+
+    text-align: left;
+    margin-left: 25px;
+    float: left;
+}
+
+.chhamp5 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    position: relative;
+    left: 5px;
+}
+
+.nxt_tag1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.nxt_tag1:hover{
+
+    position: relative;
+    animation-name: danny;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes danny{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+.chhamp6{
+
+    text-align: left;
+    margin-left: 45px;
+    float: left;
+}
+
+.chhamp6 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    position: relative;
+    left: 5px;
+}
+
+.nxt_tag2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.nxt_tag2:hover{
+
+    position: relative;
+    animation-name: lorcan;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes lorcan{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+/*nxt brand ends*/
+
+/* nxt uk brand starts*/
+
+.brands4{
+
+    text-align: center;
+
+}
+
+
+.brand4{
+
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+ }
+
+
+.brand4:hover{
+
+    position: relative;;
+    animation-name: nxt_uk;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+@keyframes nxt_uk{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 0;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:20px;
+      }
+      75%{
+          left: -20px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -20px;
+      }
+
+
+}
+
+
+
+.chammp1{
+
+    text-align: left;
+    margin-left: 35px;
+    float: left;
+}
+
+.chammp1 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    margin-left: 25px;
+}
+
+.nxtuk_champ{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.nxtuk_champ:hover{
+
+    position: relative;
+    animation-name: walter;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes walter{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+.chammp2{
+
+    text-align: left;
+    margin-left: 40px;
+    float: left;
+}
+
+.chammp2 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    position: relative;
+    left: 30px;
+}
+
+.nxtuk_heritage{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.nxtuk_heritage:hover{
+
+    position: relative;
+    animation-name: a-kid;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes a-kid{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+
+
+
+.chammp3{
+
+    text-align: left;
+    margin-left: 40px;
+    float: left;
+}
+
+.chammp3 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    margin-left: 5px;
+}
+
+.nxtuk_wo{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.nxtuk_wo:hover{
+
+    position: relative;
+    animation-name: kay;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes kay{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+.chammp4{
+
+    text-align: left;
+    margin-left: 35px;
+    float: left;
+}
+
+.chammp4 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    margin-left: 0px;
+}
+
+.cruiser_champ2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.cruiser_champ2:hover{
+
+    position: relative;
+    animation-name: jordan;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes jordan{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+
+.chammp5{
+
+    text-align: left;
+    margin-left: 40px;
+    float: left;
+}
+
+.chammp5 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    position: relative;
+    left: 5px;
+}
+
+.nxtuk_tag1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.nxtuk_tag1:hover{
+
+    position: relative;
+    animation-name: mark;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes mark{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+
+.chammp6{
+
+    text-align: left;
+    margin-left: 45px;
+    float: left;
+}
+
+.chammp6 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    position: relative;
+    left: 15px;
+}
+
+.nxtuk_tag2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.nxtuk_tag2:hover{
+
+    position: relative;
+    animation-name: wolfgang;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes wolfgang{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+/* nxt uk brand ends*/
+
+
+/*all brands start*/
+
+.brands{
+
+    text-align: center;
+
+}
+
+
+.brand{
+
+    height: 100px;
+    width: 150px;
+    border-radius: ;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+ }
+
+
+.brand:hover{
+
+    position: relative;;
+    animation-name: all;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+@keyframes all{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: ;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:20px;
+      }
+      75%{
+          left: -20px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -20px;
+      }
+
+
+}
+
+
+
+
+
+.champp1{
+
+    text-align: left;
+    margin-left: 35px;
+    float: left;
+}
+
+.champp1 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    margin-left: -10px;
+}
+
+.wo_tag1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.wo_tag1:hover{
+
+    position: relative;
+    animation-name: baszler;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes baszler{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+
+
+.champp2{
+
+    text-align: left;
+    margin-left: 40px;
+    float: left;
+}
+
+.champp2 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    position: relative;
+    left: 25px;
+}
+
+.wo_tag2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.wo_tag2:hover{
+
+    position: relative;
+    animation-name: nia;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes nia{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+
+
+.champp3{
+
+    text-align: left;
+    margin-left: 40px;
+    float: left;
+}
+
+.champp3 p{
+    margin-top: 1px;
+    color: darkkhaki;
+    margin-left: 20px;
+}
+
+.champ_247{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+}
+
+.champ_247:hover{
+
+    position: relative;
+    animation-name: r-truth;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+@keyframes r-truth{
+
+    0%{
+        left: 0;
+        right: 0;
+     }
+     25%{
+         
+         left: 10px;
+         right: 0;
+      }
+      50%{
+          
+          left:0;
+          right:10px;
+      }
+      75%{
+          left: -10px;
+          right:0;
+      }
+      100%{
+          left: 0;
+          right: -10px;
+      }
+
+
+}
+
+
+/*all brands end*/
+
+
+.gallery::after{
+
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+
+/*gallery ends*/
+
+/* titantron starts*/
+
+.titantron{
+
+    
+
+}
+
+.titantron h2{
+
+    margin-top: 50px;
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: overline underline;
+    font-family: monospace;
+}
+
+.video1{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.drew_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.drew_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video1 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+
+.video2{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.roman_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.roman_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video2 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+
+
+.video3{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.finn_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.finn_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video3 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+
+.video4{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.walter_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.walter_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video4 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+.video5{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.bobby_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.bobby_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video5 p{
+
+    color: darkkhaki;
+    
+}
+
+
+.video6{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.e_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.e_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video6 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+
+
+.video7{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.johnny_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.johnny_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video7 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+.video8{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.a-kid_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.a-kid_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video8 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+
+.video9{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.asuka_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.asuka_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video9 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+
+
+.video10{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.sasha_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.sasha_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video10 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+.video11{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.shirai_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.shirai_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video11 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+.video12{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.kay_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.kay_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video12 p{
+
+    color: darkkhaki;
+    
+}
+
+
+.video13{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.thb_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.thb_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video13 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+.video14{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.dd_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.dd_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video14 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+
+.video15{
+
+    text-align: center;
+    float: left;
+    margin-left: 75px;
+    margin-top: 35px;
+}
+
+.od_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.od_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video15 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+
+.video16{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.gallus_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.gallus_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video16 p{
+
+    color: darkkhaki;
+    
+}
+
+
+.video17{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.santos_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.santos_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video17 p{
+
+    color: darkkhaki;
+    
+}
+
+
+.video18{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.jordan_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.jordan_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video18 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+.video19{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.il_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.il_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video19 p{
+
+    color: darkkhaki;
+    
+}
+
+
+
+
+.video20{
+
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.truth_video{
+
+    height: 180px;
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+.truth_video:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.video20 p{
+
+    color: darkkhaki;
+    
+}
+
+
+.titantron::after{
+
+    clear: both;
+    display: table;
+    content: '';
+}
+
+
+/* titantron ends*/
+
+/* about me sectin starts*/
+
+.about_me{
+
+     background-color: grey;
+     width: 400px;
+     text-align: center;
+     border: 5px solid gray;
+     margin-top: 50px;
+     margin-left: 28px;
+     box-sizing: border-box;
+     padding: 20px;
+     
+
+}
+
+.about_me:hover{
+
+    box-shadow: 20px 20px 6px khaki;
+    transition: 1s;
+    transition-delay: 0.3s;
+    cursor: pointer;
+    
+}
+
+.about_me h2{
+
+    color:black;
+    text-transform:capitalize;
+    font-family: fantasy;
+    text-align: center;
+}
+
+
+.dotted1{
+
+    border-bottom:8px dotted;
+    width: 15%;
+    margin-top: 40px;
+    border-block-start-style:none ;
+    border-bottom-color: linen;
+}
+
+.dotted1:hover{
+
+    border-color:orangered ;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.profile{
+
+    float: left;
+    margin: 20px auto;
+    margin-left: 4px;
+    
+}
+
+.pic{
+
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    opacity: 0.8;
+    border: 2px solid lightslategray;
+
+}
+
+.pic:hover{
+
+    cursor: pointer;
+    opacity: 1;
+    border-color: black;
+    transition: 1s;
+    transition-delay: 0.3s;
+}
+
+.line{
+
+    width: 100%;
+    border-bottom: 3px solid linen;
+}
+
+.description{
+
+    float: left;
+
+}
+
+.description p{
+
+    color: rgb(247, 200, 140);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.description p a{
+
+     color:  rgb(247, 200, 140);
+     text-decoration: none;
+
+}
+
+.description p a:hover{
+
+    color:  orangered;
+    text-decoration: none;
+    
+}
+
+
+.download{
+
+    margin-top: 30px;
+    background-color: honeydew;
+    color: brown;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: serif;
+    font-size:larger;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+
+.download:hover{
+
+    background-color: tomato;
+    color: black;
+    transition: 0.5s;
+    
+    
+}
+
+
+.about_me::after{
+
+    content: '';
+    clear: both;
+    display: table;
+
+}
+
+/* about me section ends*/
+
+
+/* professional section starts*/
+
+.profession{
+
+    margin-top: 30px;
+
+}
+
+
+/* caaard1 starts*/
+
+.caaard1{
+
+    background-color: gray;
+    height: 870px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 28px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    
+}
+
+.caaard1:hover{
+
+    box-shadow: 20px 20px 6px khaki;
+    cursor: pointer;
+    transition: 0.8s;
+    transition-delay: 1s;
+   
+}
+
+.work_img{
+
+    text-align: center;
+}
+
+.work_img img{
+
+    height: 80px;
+    width: 80px;
+    border: 3px solid blanchedalmond;
+    border-radius: 50%;
+    margin-top: 50px;
+
+}
+
+.work_heading{
+
+    text-align: center;
+    background-color: blanchedalmond;
+    
+}
+
+.work_heading h2{
+
+    color: dimgray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+   
+}
+
+.work_desc{
+
+    text-align:justify;
+    font-weight: bolder;
+    color: burlywood; 
+    font-family:cursive;
+}
+
+.work_desc ol {
+    
+}
+
+.work-desc ol li{
+    
+   
+}
+
+strong{
+    color: burlywood;
+    font-size: 20px;
+}
+
+.text{
+
+    color: ghostwhite;
+    opacity: 1;
+    font-family: cursive;
+    font-size: 16px;
+    position: relative;
+    top: calc(100% + 5px);
+   
+
+}
+
+.text:hover{
+
+    position: relative;
+    animation-name: text;
+    animation-timing-function: none;
+    animation-duration: none;
+    animation-fill-mode: none;
+    animation-delay: none;
+    animation-iteration-count: none;
+    color: ghostwhite;
+}
+
+@keyframes text{
+
+    from{
+        top: 0;
+        left: 0;
+        right: 0;
+        
+    }
+    to{
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+}
+
+
+/* caard1 ends*/
+
+
+/* caard2 starts*/
+
+
+.caaard2{
+
+    background-color: gray;
+    height: 870px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 28px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    
+}
+
+
+
+.caaard2:hover{
+
+    box-shadow: 20px 20px 6px khaki;
+    cursor: pointer;
+    transition: 0.8s;
+    transition-delay: 1s;
+   
+}
+
+
+
+.edu_img{
+
+    text-align: center;
+}
+
+.edu_img img{
+
+    height: 80px;
+    width: 80px;
+    border: 3px solid blanchedalmond;
+    border-radius: 50%;
+    margin-top: 50px;
+
+}
+
+
+
+
+.edu_heading{
+
+    text-align: center;
+    background-color: blanchedalmond;
+    
+}
+
+.edu_heading h2{
+
+    color: dimgray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+   
+}
+
+
+
+.edu_desc{
+
+    text-align:justify;
+    font-weight: bolder;
+    color: burlywood;
+    font-family:cursive;
+}
+
+.edu_desc ol {
+    
+}
+
+.edu_desc ol li{
+ 
+    
+}
+
+.edu_desc ol li a{
+
+    color: ghostwhite;
+    text-decoration: none;
+
+}
+
+.edu_desc ol li a:hover{
+
+    color: maroon;
+    text-decoration: underline;
+}
+
+
+
+/*caaard2 ends*/
+
+/* caaard3 starts*/
+
+
+.caaard3{
+
+    background-color: gray;
+    height: 870px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 28px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    
+}
+
+
+
+.caaard3:hover{
+
+    box-shadow: 20px 20px 6px khaki;
+    cursor: pointer;
+    transition: 0.8s;
+    transition-delay: 1s;
+   
+}
+
+
+
+
+
+.skill_img{
+
+    text-align: center;
+}
+
+.skill_img img{
+
+    height: 80px;
+    width: 80px;
+    border: 3px solid blanchedalmond;
+    border-radius: 50%;
+    margin-top: 50px;
+
+}
+
+
+
+
+.skill_heading{
+
+    text-align: center;
+    background-color: blanchedalmond;
+    
+}
+
+.skill_heading h2{
+
+    color: dimgray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+   
+}
+
+
+
+.skill_desc{
+
+    text-align:left;
+    font-weight: bolder;
+    color: burlywood;
+    font-family:cursive;
+
+}
+
+.skill_desc ol {
+    text-align: left;
+   
+}
+
+.skill_desc ol li{
+ 
+    list-style-type: none;
+    padding: 20px 0px;
+    margin-left: -40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.skill_desc ol li::before{
+
+  
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px) ;
+    left: 0;
+    background-color:moccasin;
+    width: 100%;
+    height: 10px;
+    border-radius: 20px;
+     
+}
+
+
+
+.skill_desc ol li::after{
+
+  
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px) ;
+    left: 0;
+    background-color:moccasin;
+    width: 0;
+    height: 10px;
+    border-radius: 20px;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    transition-duration: 8s;
+    transition-delay: 1s;
+     
+}
+
+.skill_desc ol li.html::after{
+
+    animation-name: html;
+
+}
+
+@keyframes html{
+
+    25%{
+        background-color: tomato;
+    }
+    50%{
+        background-color: orangered;
+    }
+    75%{
+        background-color: red;
+    }
+    90%{
+        background-color:brown ;
+    }
+    to{
+        width: 93%;
+        background-color:maroon ;
+    }
+}
+
+
+.skill_desc ol li.css::after{
+
+    animation-name: css;
+
+}
+
+@keyframes css{
+
+    25%{
+        background-color: tomato;
+    }
+    50%{
+        background-color: orangered;
+    }
+    75%{
+        background-color: red;
+    }
+    90%{
+        background-color:brown ;
+    }
+    to{
+        width: 83%;
+        background-color:red;
+    }
+}
+
+.skill_desc ol li.bootstrap::after{
+
+    animation-name:boot;
+
+}
+
+@keyframes boot{
+
+    25%{
+        background-color: tomato;
+    }
+    50%{
+        background-color: orangered;
+    }
+    75%{
+        background-color: red;
+    }
+    90%{
+        background-color:brown ;
+    }
+    to{
+        width: 33%;
+        background-color:tomato  ;
+    }
+}
+
+
+
+
+.skill_desc ol li.jquery::after{
+
+    animation-name: jquery;
+
+}
+
+@keyframes jquery{
+
+    25%{
+        background-color: tomato;
+    }
+    50%{
+        background-color: orangered;
+    }
+    75%{
+        background-color: red;
+    }
+    90%{
+        background-color:brown ;
+    }
+    to{
+        width: 13%;
+        background-color:rgb(255, 156, 139) ;
+    }
+}
+
+
+.skill_desc ol li.java::after{
+
+    animation-name:java;
+
+}
+
+@keyframes java{
+
+    25%{
+        background-color: tomato;
+    }
+    50%{
+        background-color: orangered;
+    }
+    75%{
+        background-color: red;
+    }
+    90%{
+        background-color:brown ;
+    }
+    to{
+        width: 23%;
+        background-color:rgb(255, 156, 139)  ;
+    }
+}
+
+
+.skill_desc ol li.rb::after{
+
+    animation-name:rb;
+
+}
+
+@keyframes rb{
+
+    25%{
+        background-color: tomato;
+    }
+    50%{
+        background-color: orangered;
+    }
+    75%{
+        background-color: red;
+    }
+    90%{
+        background-color:brown ;
+    }
+    to{
+        width: 10%;
+        background-color:rgb(255, 156, 139)  ;
+    }
+}
+
+.skill_desc ol li.node::after{
+
+    animation-name:node;
+
+}
+
+@keyframes node{
+
+    25%{
+        background-color: tomato;
+    }
+    50%{
+        background-color: orangered;
+    }
+    75%{
+        background-color: red;
+    }
+    90%{
+        background-color:brown ;
+    }
+    to{
+        width: 9%;
+        background-color:rgb(255, 156, 139)  ;
+    }
+}
+
+.skill_desc ol li.express::after{
+
+    animation-name:express;
+
+}
+
+@keyframes express{
+
+    25%{
+        background-color: tomato;
+    }
+    50%{
+        background-color: orangered;
+    }
+    75%{
+        background-color: red;
+    }
+    90%{
+        background-color:brown ;
+    }
+    to{
+        width: 11%;
+        background-color:rgb(255, 156, 139)  ;
+    }
+}
+
+
+
+
+
+
+
+/*caaard3 ends*/
+
+
+.profession::after{
+
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/* professional section ends*/
+
+/* contact row starts*/
+
+
+.contact_row{
+
+    background-color: darkgrey;
+    width: 85%;
+    margin:0 auto;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+.contact_me{
+
+
+}
+
+.contact_me h2{
+
+    color: darkslategrey;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+
+.contact_me hr{
+
+    margin-top: 80px;
+}
+
+form{
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+label{
+
+ 
+   
+}
+
+input{
+
+    text-align: center;
+    height: 25px;
+    width: 100%;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 0px;
+    background-color: floralwhite;
+    border: 2px solid lavender;
+    border-radius: 15px;
+
+}
+
+input:hover{
+
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+textarea{
+
+    margin-top: 30px;
+    width: 100%;
+    background-color: floralwhite;
+    border: 2px solid lavender;
+    border-radius: 25px;
+    text-align: center;
+    font-family: cursive;
+    resize: none;
+}
+
+textarea:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+
+.submit{
+
+    height: 35px;
+    width: 20%;
+    margin-top: 30px;
+    text-align: center;
+    color: maroon;
+    background-color: lightyellow;
+    border: 3px solid gray;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    cursor: pointer;
+    position: relative;
+    left: 60px;
+    transform: translate(70%);
+}
+
+.reset{
+    height: 35px;
+    width: 20%;
+    margin-top: 30px;
+    text-align: center;
+    color: maroon;
+    background-color: lightyellow;
+    border: 3px solid gray;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    cursor: pointer;
+    position: relative;
+    left: 60px;
+    transform: translate(70%);
+
+}
+
+
+
+.submit:hover{
+
+    background-color: black;
+    color: wheat;
+    transition: 0.9s;
+    transition-delay: 0.8s;
+    
+}
+
+.reset:hover{
+
+    background-color: black;
+    color: wheat;
+    transition: 0.9s;
+    transition-delay: 0.8s;
+    
+}
+
+/* contact_me ends*/
+
+
+
+/* contact_button starts*/
+
+.contact_button{
+
+}
+
+.contact_button h2{
+
+    color:#2F4F4F ;
+    text-align: center;
+    font-family: fantasy;
+    text-transform: capitalize;
+    position: relative;
+    top: 25px;
+    transform: translateY(20%);
+
+}
+
+.button_div{
+
+    text-align: center;
+}
+
+.contact_button hr{
+
+    position: relative;
+    top: 35px;
+    transform: translateY(20%);
+}
+
+.button_div button{
+
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid gray;
+    margin: 10px;
+    margin-top: 85px;
+    
+
+}
+
+.button_div button:hover{
+
+    background-color: black;
+    cursor: pointer;
+    transition-delay: 0.5s;
+    transition: 1s;
+}
+
+/* contact_button ends*/
+
+
+.contact_row::after{
+
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* contact row ends*/
+
+
+/* footer sec tion starts*/
+
+.footer{
+
+    height: 480px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.nav-footer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-footer a{
+
+   
+    color: wheat;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: fantasy;
+    margin: 10px 15px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    
+
+}
+
+.nav-footer a:hover{
+
+    color: maroon;
+    background-color: whitesmoke;
+   
+}
+
+
+
+.para-footer{
+
+    margin-top: -10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: papayawhip;
+}
+
+.pp{
+
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+
+.developer{
+    color:brown;
+    font-family: cursive;
+    cursor: pointer;
+    font-size: 22px;
+    position: relative;
+    left: 40px;
+    top: -40px;
+}
+
+.copyright{
+
+    position: relative;
+    top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.right{
+
+    position: relative;
+    top: 15px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.footer::after{
+
+    content: '';
+    clear: both;
+    display: table;
+
+}
+
+/* footer section ends*/
